@@ -1,7 +1,9 @@
 import React from "react";
+import Discente from "./Discente.jsx";
+import feo from "../../objetos/discentes.json";
 
 function Discentes() {
-  const discentes = [
+  /* const discentes = [
     {
       id: 1,
       nombre: "Feo",
@@ -23,7 +25,11 @@ function Discentes() {
       curso: "2DAW",
       modulos: "DWC",
     },
-  ];
+  ]; */
+
+  const discentes = [...feo.discentes];
+
+  console.log(feo.discentes);
 
   return (
     <>
@@ -40,9 +46,10 @@ function Discentes() {
               {v.modulos}
             </Discente>
           );
-        })}
+        })} 
+       
       </div> */}
-      {/* <div>
+      <div>
         {discentes.length
           ? discentes.map((v, i, a) => {
               return (
@@ -51,13 +58,15 @@ function Discentes() {
                   nombre={v.nombre}
                   apellidos={v.apellidos}
                   curso={v.curso}
+                  aficiones={v.aficiones}
+                  /* datos={v} */
                 >
                   {v.modulos}
                 </Discente>
               );
             })
           : "No se han encontrado discentes."}
-      </div> */}
+      </div>
     </>
   );
 }

@@ -4,7 +4,7 @@ import "./PrimerComponente.css";
 //function PrimerComponente(props) {
 const PrimerComponente = (props) => {
   const texto = "Esto es un componente de prueba.";
-  const tecnologia = "";
+  const tecnologia = " Angular";
   return (
     /* Uso de los Fragment. */
     <Fragment>

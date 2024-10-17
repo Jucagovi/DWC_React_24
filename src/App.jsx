@@ -1,9 +1,11 @@
 import "./App.css";
+import Discentes from "./componentes/UT02/Discentes.jsx";
 
 function App() {
   return (
     <>
-      <h1>¡Bienvenidos al mundo de React!</h1>
+      <h1>Hola desde React.</h1>
+      <Discentes />
     </>
   );
 }

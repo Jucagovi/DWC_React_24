@@ -1,19 +1,20 @@
-function Discente(props) {
+const Discente = (props) => {
   // Desestructuración de parámetros.
+  const { nombre, apellidos, curso, aficiones, children, comida } = props.datos;
+  console.log(props.datos);
   return (
     <>
       <div>
-        <p>Apellidos, Nombre</p>
-        <p>Curso matrícula</p>
-        <p>Módulos matrícula</p>
-        {/* <p>
-          {props.apellidos}, {props.nombre}
+        <p>
+          {apellidos}, {nombre}
         </p>
-        <p>{props.curso}</p>
-        <p>{props.children}</p> */}
+        <p>{curso}</p>
+        <p>{children}</p>
+        <p>{aficiones}</p>
+        <p>{comida}</p>
       </div>
     </>
   );
-}
+};
 
 export default Discente;
