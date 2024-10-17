@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import "./Clases.css";
+import "./clases.css";
 import BotonLimpiar from "./BotonLimpiar";
 import { ponerAzul } from "../../bibliotecas/ut03.js";
 
