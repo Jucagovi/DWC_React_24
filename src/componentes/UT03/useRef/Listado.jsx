@@ -36,7 +36,8 @@ const Listado = () => {
             Borrar listado
           </button>
         </p>
-        <ul ref={listadoRef}>
+        <ul ref={li
+          stadoRef}>
           <li>Este es el elemento inicial.</li>
         </ul>
       </div>
