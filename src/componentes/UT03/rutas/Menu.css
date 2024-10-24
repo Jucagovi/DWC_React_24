@@ -4,6 +4,7 @@
     padding: 10px;
     border: solid rgb(0, 0, 0) 1px;
     color: rgb(0, 0, 0);
+    border-radius: 5px;
 }
 
 .menu-elemento:hover {
